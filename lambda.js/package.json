@@ -1,0 +1,31 @@
+{
+  "name": "@rushike/youtube-music-alexa-skill",
+  "version": "1.2.0",
+  "description": "alexa skill for playing songs from youtube/music",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rushikesh Bangar",
+  "license": "Apache License",
+  "dependencies": {
+    "@distube/ytdl-core": "^4.16.12",
+    "ask-sdk-core": "^2.7.0",
+    "ask-sdk-model": "^1.19.0",
+    "aws-sdk": "^2.326.0",
+    "better-sqlite3": "^12.9.0",
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
+    "dotenv": "^16.3.1",
+    "express": "^5.2.1",
+    "node-youtube-music": "^0.10.3",
+    "puppeteer": "^24.43.0",
+    "sql.js": "^1.14.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^6.0.1",
+    "youtubei.js": "^17.0.1",
+    "yt-list": "^0.1.1",
+    "ytdl-core": "^4.11.5"
+  }
+}
